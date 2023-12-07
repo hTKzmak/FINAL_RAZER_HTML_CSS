@@ -1,5 +1,5 @@
 # RazerHTML3
 
-Topic: создание адаптивного макета и его тестирование на разных устройствах
+Task: https://ithub.bulgakov.app/lessons/69814
 
 Design: https://dribbble.com/shots/3332608-Razer-Store-Redesign
