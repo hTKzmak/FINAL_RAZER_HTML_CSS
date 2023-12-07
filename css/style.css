@@ -150,13 +150,11 @@ select {
 
   width: 30px;
   height: 40px;
-  /* display: flex; */
 
   background: transparent;
   border: 1px solid #303030;
   cursor: pointer;
 
-  /* padding: 15px 5px 0 5px; */
   padding: 0px 5px 0 5px;
 }
 
@@ -348,7 +346,7 @@ footer {
 #info-window,
 #menu-window,
 #srch-window {
-  opacity: 0;
+  visibility: hidden;
   transform: scale(0.5);
   top: 50px;
   bottom: 50px;
@@ -390,8 +388,8 @@ footer {
 #info-window:target,
 #menu-window:target,
 #srch-window:target {
-  opacity: 1;
   transform: scale(1);
+  visibility: visible;
 }
 
 .form {
